@@ -1,1 +1,1 @@
-web: gunicorn www:app
+web: gunicorn Directory.wsgi

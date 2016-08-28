@@ -45,14 +45,15 @@ https://git.heroku.com/[application_name].git
   $ git push heroku master
 ```
 #### Issues I ran into:
-  1.- No default language could be detected for this app.
+  1. **No default language could be detected for this app.**
     * Solution: Configurations files like requirements.txt were misspelled
-  2.- ImportError: No module named Directory.wsgi: Procfile should work only with :
-  ```
-  web: gunicorn Directory.wsgi
-  ```
+  2. **ImportError: No module named Directory.wsgi** Procfile should work only with :
+    * Solution:
+    ```
+    web: gunicorn Directory.wsgi
+    ```
 
 ### Feel free to collaborate :-)
 
-#### Application deployed: [Young Beyond](https://young-beyond-42225.herokuapp.com/) 
+#### Application deployed: [Young Beyond](https://young-beyond-42225.herokuapp.com/)
 Note: It might not be available always ;-)
